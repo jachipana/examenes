@@ -1,9 +1,10 @@
 <template>
   <nav>
-    <router-link to="/">Casa</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link :to="{ name: 'home' }">Home</router-link> |
+    <router-link :to="{ name: 'PrimerParcial', params: {} }">Primer Examen</router-link> |
+    <router-link :to="{ name: 'SegundoParcial', params: {} }">Segundo Examen</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>

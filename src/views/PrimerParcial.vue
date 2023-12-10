@@ -1,10 +1,10 @@
 <template>
-  <h1>ejercicios realizados en vue 3</h1>
+    <h1>Primer parcial!!!</h1>
 </template>
 
 <script>
 export default {
-  name: 'HomeView',
+    name: 'PrimerParcial'
 }
 </script>
 
