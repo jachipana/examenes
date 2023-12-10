@@ -20,7 +20,6 @@
             </tr>
         </tbody>
     </table>
-    <label>{{ cantidad }}</label>
 </template>
 
 <script>
