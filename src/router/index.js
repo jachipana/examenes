@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import PrimerParcial from '../views/PrimerParcial.vue'
 import SegundoParcial from '../views/SegundoParcial.vue'
+import TercerParcial from '../views/TercerParcial.vue'
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/segundo-parcial',
     name: 'SegundoParcial',
     component: SegundoParcial
+  },
+  {
+    path: '/tercer-parcial',
+    name: 'TercerParcial',
+    component: TercerParcial
   }
 ]
 

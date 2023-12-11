@@ -2,7 +2,8 @@
   <nav>
     <router-link :to="{ name: 'home' }">Home</router-link> |
     <router-link :to="{ name: 'PrimerParcial', params: {} }">Primer Examen</router-link> |
-    <router-link :to="{ name: 'SegundoParcial', params: {} }">Segundo Examen</router-link>
+    <router-link :to="{ name: 'SegundoParcial', params: {} }">Segundo Examen</router-link> |
+    <router-link :to="{ name: 'TercerParcial', params: {} }">Tercer Examen</router-link>
   </nav>
   <router-view />
 </template>
